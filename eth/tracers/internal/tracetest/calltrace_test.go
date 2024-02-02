@@ -24,17 +24,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/common/hexutil"
+	"github.com/muku314115/go-eth/common/math"
+	"github.com/muku314115/go-eth/core"
+	"github.com/muku314115/go-eth/core/rawdb"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/core/vm"
+	"github.com/muku314115/go-eth/eth/tracers"
+	"github.com/muku314115/go-eth/params"
+	"github.com/muku314115/go-eth/rlp"
+	"github.com/muku314115/go-eth/tests"
 )
 
 type callContext struct {

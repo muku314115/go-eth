@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/holiman/uint256"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/common/hexutil"
 )
 
 // txJSON is the JSON representation of transactions.

@@ -28,16 +28,16 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/triestate"
 	"github.com/holiman/uint256"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/rawdb"
+	"github.com/muku314115/go-eth/core/state/snapshot"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/crypto"
+	"github.com/muku314115/go-eth/rlp"
+	"github.com/muku314115/go-eth/trie"
+	"github.com/muku314115/go-eth/trie/triedb/pathdb"
+	"github.com/muku314115/go-eth/trie/triestate"
 )
 
 // A stateTest checks that the state changes are correctly captured. Instances

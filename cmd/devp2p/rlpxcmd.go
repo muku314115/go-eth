@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/muku314115/go-eth/cmd/devp2p/internal/ethtest"
+	"github.com/muku314115/go-eth/crypto"
+	"github.com/muku314115/go-eth/p2p"
+	"github.com/muku314115/go-eth/p2p/enode"
+	"github.com/muku314115/go-eth/p2p/rlpx"
+	"github.com/muku314115/go-eth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

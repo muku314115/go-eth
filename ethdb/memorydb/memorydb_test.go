@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/dbtest"
+	"github.com/muku314115/go-eth/ethdb"
+	"github.com/muku314115/go-eth/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

@@ -10,17 +10,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/common/hexutil"
+	"github.com/muku314115/go-eth/core"
+	"github.com/muku314115/go-eth/core/rawdb"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/core/vm"
+	"github.com/muku314115/go-eth/rlp"
+	"github.com/muku314115/go-eth/tests"
 
 	// Force-load the native, to trigger registration
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/muku314115/go-eth/eth/tracers"
 )
 
 // flatCallTrace is the result of a callTracerParity run.

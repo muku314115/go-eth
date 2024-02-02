@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/crypto"
+	"github.com/muku314115/go-eth/ethdb"
+	"github.com/muku314115/go-eth/rlp"
 )
 
 // ProofSet stores a set of trie nodes. It implements trie.Database and can also

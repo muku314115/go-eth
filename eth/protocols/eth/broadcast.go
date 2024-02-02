@@ -19,8 +19,8 @@ package eth
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/types"
 )
 
 const (

@@ -22,9 +22,9 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/vm"
+	"github.com/muku314115/go-eth/eth/tracers"
 )
 
 func init() {

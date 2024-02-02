@@ -19,19 +19,19 @@ package simulated
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/muku314115/go-eth"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core"
+	"github.com/muku314115/go-eth/eth"
+	"github.com/muku314115/go-eth/eth/catalyst"
+	"github.com/muku314115/go-eth/eth/downloader"
+	"github.com/muku314115/go-eth/eth/ethconfig"
+	"github.com/muku314115/go-eth/eth/filters"
+	"github.com/muku314115/go-eth/ethclient"
+	"github.com/muku314115/go-eth/node"
+	"github.com/muku314115/go-eth/p2p"
+	"github.com/muku314115/go-eth/params"
+	"github.com/muku314115/go-eth/rpc"
 )
 
 // Client exposes the methods provided by the Ethereum RPC client.

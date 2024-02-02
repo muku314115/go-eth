@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/muku314115/go-eth/common"
+	cmath "github.com/muku314115/go-eth/common/math"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/core/vm"
+	"github.com/muku314115/go-eth/crypto/kzg4844"
+	"github.com/muku314115/go-eth/params"
 )
 
 // ExecutionResult includes all output after executing given evm

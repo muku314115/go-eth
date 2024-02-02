@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/holiman/uint256"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/consensus/misc/eip4844"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/crypto"
+	"github.com/muku314115/go-eth/crypto/kzg4844"
+	"github.com/muku314115/go-eth/eth/protocols/eth"
+	"github.com/muku314115/go-eth/internal/utesting"
+	"github.com/muku314115/go-eth/p2p"
+	"github.com/muku314115/go-eth/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

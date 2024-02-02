@@ -24,11 +24,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/holiman/uint256"
 	"github.com/kylelemons/godebug/diff"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/params"
+	"github.com/muku314115/go-eth/rlp"
 )
 
 var (

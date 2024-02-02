@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v5test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/muku314115/go-eth/cmd/devp2p/internal/v5test"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/internal/flags"
+	"github.com/muku314115/go-eth/p2p/discover"
 	"github.com/urfave/cli/v2"
 )
 
