@@ -41,11 +41,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
+	"github.com/muku314115/go-eth/accounts"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/event"
+	"github.com/muku314115/go-eth/log"
 )
 
 // Scheme is the URI prefix for smartcard wallets.

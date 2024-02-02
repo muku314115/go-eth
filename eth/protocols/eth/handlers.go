@@ -20,12 +20,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/log"
+	"github.com/muku314115/go-eth/rlp"
+	"github.com/muku314115/go-eth/trie"
 )
 
 func handleGetBlockHeaders(backend Backend, msg Decoder, peer *Peer) error {

@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/types"
 )
 
 // NodeResolver is used for looking up trie nodes before reaching into the real

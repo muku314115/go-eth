@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/muku314115/go-eth/common/math"
+	"github.com/muku314115/go-eth/crypto"
+	"github.com/muku314115/go-eth/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )
 

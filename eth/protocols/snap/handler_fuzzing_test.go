@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	fuzz "github.com/google/gofuzz"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/consensus/ethash"
+	"github.com/muku314115/go-eth/core"
+	"github.com/muku314115/go-eth/core/rawdb"
+	"github.com/muku314115/go-eth/core/vm"
+	"github.com/muku314115/go-eth/p2p"
+	"github.com/muku314115/go-eth/p2p/enode"
+	"github.com/muku314115/go-eth/params"
+	"github.com/muku314115/go-eth/rlp"
 )
 
 func FuzzARange(f *testing.F) {

@@ -21,10 +21,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/bloombits"
+	"github.com/muku314115/go-eth/core/types"
+	"github.com/muku314115/go-eth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

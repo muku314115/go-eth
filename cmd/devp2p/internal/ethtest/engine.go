@@ -25,8 +25,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang-jwt/jwt/v4"
+	"github.com/muku314115/go-eth/common"
 )
 
 // EngineClient is a wrapper around engine-related data.

@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/muku314115/go-eth/common"
+	"github.com/muku314115/go-eth/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

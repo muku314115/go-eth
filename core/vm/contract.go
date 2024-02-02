@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
+	"github.com/muku314115/go-eth/common"
 )
 
 // ContractRef is a reference to the contract's backing object
